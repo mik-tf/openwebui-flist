@@ -1,4 +1,4 @@
-<h1> OpenWebUI Deployment with Ollama Flist</h1>
+<h1> Open WebUI Deployment with Ollama Flist</h1>
 
 <h2> Table of Contents </h2>
 
@@ -14,12 +14,12 @@
 
 ## Introduction
 
-This project provides a self-contained deployment of **OpenWebUI** and **Ollama** on the ThreeFold Grid, using a micro VM. The deployment is managed via **zinit** for automatic service management and includes:
+This project provides a self-contained deployment of **Open WebUI** and **Ollama** on the ThreeFold Grid, using a micro VM. The deployment is managed via **zinit** for automatic service management and includes:
 
 - Preconfigured firewall rules with **UFW**
 - Secure SSH server configuration
 - **Ollama** for local LLM serving
-- **OpenWebUI** for a web-based interface
+- **Open WebUI** for a web-based interface
 - Self-healing services via **zinit**
 
 The deployment automatically provisions:
